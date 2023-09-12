@@ -1,0 +1,100 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #090909;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: initial;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid rgb(101, 95, 101);
+}
+
+.hero {
+    background-image: url('img/homeMorro.png');
+    background-size: cover;
+    color: #fffcfc;
+    text-align: center;
+    padding: 250px 0;
+}
+
+.btn {
+    background-color:#8BC34A;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.destaques {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+}
+
+.destaque {
+    text-align: center;
+}
+
+.destaque img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos específicos da página Sobre */
+.conteudo {
+    padding: 50px;
+    text-align: justify;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.galeria img {
+    max-width: 20%;
+}
+/* Estilos Localizacao */
+.referencia{
+    display: inline;
+}
+
+
+.endereco{
+    display: inline-block;
+}
+
+.mapa{
+    display: inline-block;
+}
+
+footer{
+background-color: #000000;
+ color: #FFFFFF;
+font-family: Verdana;
+font-size: 14px;
+text-align: center;
+padding: 3px;
+}
